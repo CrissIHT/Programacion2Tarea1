@@ -1,13 +1,38 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
-package tarea1p2;
+package tarea1progra2;
 
-/**
- *
- * @author petroman
- */
-public class Boleta {
+public class Boleta extends DocTributario{
+    private String numero, rut, fecha, nombre;
+    public Boleta(String numero) {
+        super(numero);
+    }
+    @Override
+    public String gettFecha() {
+        return super.gettFecha();
+    }
     
+    @Override
+    public String gettNombre() {
+        return super.gettNombre();
+    }
+
+    @Override
+    public String gettNum() {
+        return super.gettNum(); 
+    }
+
+    @Override
+    public String gettRut() {
+        return super.gettRut(); 
+    }
+
+    @Override
+    public String toString() {
+        return ("boleta");
+    }
+
+    @Override
+    public String gettDire() {
+        return super.gettDire();
+    }
+
 }
